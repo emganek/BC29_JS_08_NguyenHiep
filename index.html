@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JS buoi 08</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS--------------- -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        MẢNG SỐ NGUYÊN
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập vào phần tử cần thêm</label>
+                            <input type="number" id="numAdded" class="form-control">
+                        </div>
+                        <button id="btnAddEle" class="btn btn-success">Add</button>
+                    </div>
+                    <div id="arrNumContent" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 01-------------- -->
+    <h1>Bài tập 01</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tổng các số dương trong mảng
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn01" class="btn btn-success">Tính</button>
+                    </div>
+                    <div id="ex01_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 02-------------- -->
+    <h1>Bài tập 02</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Đếm số dương trong mảng
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn02" class="btn btn-success">Count</button>
+                    </div>
+                    <div id="ex02_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 03-------------- -->
+    <h1>Bài tập 03</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tìm số nhỏ nhất
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn03" class="btn btn-success">Find</button>
+                    </div>
+                    <div id="ex03_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 04-------------- -->
+    <h1>Bài tập 04</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tìm số dương nhỏ nhất
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn04" class="btn btn-success">Find</button>
+                    </div>
+                    <div id="ex04_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 05-------------- -->
+    <h1>Bài tập 05</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tìm số chẵn cuối cùng
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn05" class="btn btn-success">Find</button>
+                    </div>
+                    <div id="ex05_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 06-------------- -->
+    <h1>Bài tập 06</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Đổi chỗ vị trí
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập vị trí 01</label>
+                            <input type="number" id="ex06_pos1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập vị trí 02</label>
+                            <input type="number" id="ex06_pos2" class="form-control">
+                        </div>
+                        <button id="exBtn06" class="btn btn-success">Swap</button>
+                    </div>
+                    <div id="ex06_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 07-------------- -->
+    <h1>Bài tập 07</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Sắp xếp tăng dần
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn07" class="btn btn-success">Sort</button>
+                    </div>
+                    <div id="ex07_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 08-------------- -->
+    <h1>Bài tập 08</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tìm số nguyên tố đầu tiên
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn08" class="btn btn-success">Find</button>
+                    </div>
+                    <div id="ex08_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 09-------------- -->
+    <h1>Bài tập 09</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        MẢNG SỐ THỰC
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập vào phần tử cần thêm</label>
+                            <input type="number" id="ex09_numAdded" class="form-control">
+                        </div>
+                        <button id="ex09_btnAddEle" class="btn btn-success">Add</button>
+                    </div>
+                    <div id="ex09_arrNumContent" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Đếm số lượng số nguyên trong mảng số thực
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn09" class="btn btn-success">Count</button>
+                    </div>
+                    <div id="ex09_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Ex 10-------------- -->
+    <h1>Bài tập 10</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        So sánh số nguyên âm và số nguyên dương
+                    </div>
+                    <div class="card-body">
+                        <button id="exBtn10" class="btn btn-success">Count</button>
+                    </div>
+                    <div id="ex10_result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- MAIN JAVASCRIPT-------------- -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
